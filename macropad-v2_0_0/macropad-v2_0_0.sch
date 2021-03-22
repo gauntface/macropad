@@ -80,7 +80,7 @@ F 3 "~" H 1900 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L promicro:ProMicro U1
+L macropad-v2_0_0-rescue:ProMicro-promicro U1
 U 1 1 604F2D20
 P 5350 3500
 F 0 "U1" H 5350 4537 60  0000 C CNN
@@ -210,4 +210,98 @@ Text Label 4650 3650 2    50   ~ 0
 Col_1
 Text Label 4650 3550 2    50   ~ 0
 Col_0
+$Comp
+L Device:Rotary_Encoder_Switch SW7
+U 1 1 6057EBC9
+P 6950 3300
+F 0 "SW7" H 6950 3667 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 6950 3576 50  0000 C CNN
+F 2 "Gauntface:ACZ11BRXE" H 6800 3460 50  0001 C CNN
+F 3 "~" H 6950 3560 50  0001 C CNN
+	1    6950 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3150 6650 3150
+Wire Wire Line
+	6650 3150 6650 3200
+Wire Wire Line
+	6050 3250 6650 3250
+Wire Wire Line
+	6650 3250 6650 3300
+Wire Wire Line
+	6050 3350 6650 3350
+Wire Wire Line
+	6650 3350 6650 3400
+Wire Wire Line
+	6050 3450 7250 3450
+Wire Wire Line
+	7250 3450 7250 3400
+$Comp
+L power:GND #PWR0101
+U 1 1 60581374
+P 7450 3200
+F 0 "#PWR0101" H 7450 2950 50  0001 C CNN
+F 1 "GND" H 7455 3027 50  0000 C CNN
+F 2 "" H 7450 3200 50  0001 C CNN
+F 3 "" H 7450 3200 50  0001 C CNN
+	1    7450 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3200 7250 3200
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 60581994
+P 3700 3250
+F 0 "J1" H 3808 3531 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 3808 3440 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3700 3250 50  0001 C CNN
+F 3 "~" H 3700 3250 50  0001 C CNN
+	1    3700 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3150 4650 3150
+Wire Wire Line
+	4650 3250 3900 3250
+$Comp
+L power:VCC #PWR02
+U 1 1 605842C8
+P 4250 3350
+F 0 "#PWR02" H 4250 3200 50  0001 C CNN
+F 1 "VCC" H 4265 3523 50  0000 C CNN
+F 2 "" H 4250 3350 50  0001 C CNN
+F 3 "" H 4250 3350 50  0001 C CNN
+	1    4250 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 60584EA4
+P 4050 3450
+F 0 "#PWR01" H 4050 3200 50  0001 C CNN
+F 1 "GND" H 4055 3277 50  0000 C CNN
+F 2 "" H 4050 3450 50  0001 C CNN
+F 3 "" H 4050 3450 50  0001 C CNN
+	1    4050 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3350 4250 3350
+Wire Wire Line
+	3900 3450 4050 3450
+$Comp
+L power:GND #PWR03
+U 1 1 60587943
+P 6300 2850
+F 0 "#PWR03" H 6300 2600 50  0001 C CNN
+F 1 "GND" V 6305 2722 50  0000 R CNN
+F 2 "" H 6300 2850 50  0001 C CNN
+F 3 "" H 6300 2850 50  0001 C CNN
+	1    6300 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 2850 6300 2850
 $EndSCHEMATC
