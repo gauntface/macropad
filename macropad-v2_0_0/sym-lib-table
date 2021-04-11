@@ -1,4 +1,2 @@
 (sym_lib_table
-  (lib (name macropad-v2_0_0-rescue)(type Legacy)(uri ${KIPRJMOD}/macropad-v2_0_0-rescue.lib)(options "")(descr ""))
-  (lib (name rotary_encoder)(type Legacy)(uri /home/matt/Projects/Code/macropad/footprints/rotary_encoder.lib)(options "")(descr ""))
 )

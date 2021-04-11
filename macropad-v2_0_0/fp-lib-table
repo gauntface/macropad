@@ -1,5 +1,3 @@
 (fp_lib_table
-  (lib (name Switch_Keyboard_Kailh)(type KiCad)(uri /home/matt/Projects/Code/keyswitch-kicad-library/modules/Switch_Keyboard_Kailh.pretty)(options "")(descr ""))
-  (lib (name Switch_Keyboard_Hybrid)(type KiCad)(uri /home/matt/Projects/Code/keyswitch-kicad-library/modules/Switch_Keyboard_Hybrid.pretty)(options "")(descr ""))
-  (lib (name Switch_Keyboard_Cherry_MX)(type KiCad)(uri /home/matt/Projects/Code/keyswitch-kicad-library/modules/Switch_Keyboard_Cherry_MX.pretty)(options "")(descr ""))
+  (lib (name Button_1825910-6)(type KiCad)(uri "/home/matt/Projects/Code/KiCad Libraries/Button_1825910-6")(options "")(descr ""))
 )

@@ -1,0 +1,454 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW1
+U 1 1 604E9B04
+P 1900 2700
+F 0 "SW1" H 1900 2985 50  0000 C CNN
+F 1 "SW_Push" H 1900 2894 50  0000 C CNN
+F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB" H 1900 2900 50  0001 C CNN
+F 3 "~" H 1900 2900 50  0001 C CNN
+	1    1900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 604EA70F
+P 2550 2700
+F 0 "SW2" H 2550 3000 50  0000 C CNN
+F 1 "SW_Push" H 2550 2894 50  0000 C CNN
+F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB" H 2550 2900 50  0001 C CNN
+F 3 "~" H 2550 2900 50  0001 C CNN
+	1    2550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 604EAC65
+P 3200 2700
+F 0 "SW3" H 3200 2985 50  0000 C CNN
+F 1 "SW_Push" H 3200 2894 50  0000 C CNN
+F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB" H 3200 2900 50  0001 C CNN
+F 3 "~" H 3200 2900 50  0001 C CNN
+	1    3200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 604EB0AB
+P 3200 3600
+F 0 "SW6" H 3200 3885 50  0000 C CNN
+F 1 "SW_Push" H 3200 3794 50  0000 C CNN
+F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB" H 3200 3800 50  0001 C CNN
+F 3 "~" H 3200 3800 50  0001 C CNN
+	1    3200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 604EB7D8
+P 2550 3600
+F 0 "SW5" H 2550 3885 50  0000 C CNN
+F 1 "SW_Push" H 2550 3794 50  0000 C CNN
+F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB" H 2550 3800 50  0001 C CNN
+F 3 "~" H 2550 3800 50  0001 C CNN
+	1    2550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 604EBC9D
+P 1900 3600
+F 0 "SW4" H 1900 3885 50  0000 C CNN
+F 1 "SW_Push" H 1900 3794 50  0000 C CNN
+F 2 "Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB" H 1900 3800 50  0001 C CNN
+F 3 "~" H 1900 3800 50  0001 C CNN
+	1    1900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L macropad-v2_0_0-rescue:ProMicro-promicro U1
+U 1 1 604F2D20
+P 5350 3500
+F 0 "U1" H 5350 4537 60  0000 C CNN
+F 1 "ProMicro" H 5350 4431 60  0000 C CNN
+F 2 "promicro:ProMicro" H 5450 2450 60  0001 C CNN
+F 3 "" H 5450 2450 60  0000 C CNN
+	1    5350 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 60502B62
+P 3000 3000
+F 0 "D3" V 3046 2920 50  0000 R CNN
+F 1 "D" V 2955 2920 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3000 3000 50  0001 C CNN
+F 3 "~" H 3000 3000 50  0001 C CNN
+	1    3000 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 6050256B
+P 2350 3000
+F 0 "D2" V 2396 2920 50  0000 R CNN
+F 1 "D" V 2305 2920 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2350 3000 50  0001 C CNN
+F 3 "~" H 2350 3000 50  0001 C CNN
+	1    2350 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 604FB85A
+P 1700 3000
+F 0 "D1" V 1746 2920 50  0000 R CNN
+F 1 "D" V 1655 2920 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 1700 3000 50  0001 C CNN
+F 3 "~" H 1700 3000 50  0001 C CNN
+	1    1700 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 6051FFAF
+P 1700 3900
+F 0 "D4" V 1746 3820 50  0000 R CNN
+F 1 "D" V 1655 3820 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 1700 3900 50  0001 C CNN
+F 3 "~" H 1700 3900 50  0001 C CNN
+	1    1700 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 605207A3
+P 2350 3900
+F 0 "D5" V 2396 3820 50  0000 R CNN
+F 1 "D" V 2305 3820 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2350 3900 50  0001 C CNN
+F 3 "~" H 2350 3900 50  0001 C CNN
+	1    2350 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 60520D0A
+P 3000 3900
+F 0 "D6" V 3046 3820 50  0000 R CNN
+F 1 "D" V 2955 3820 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 3000 3900 50  0001 C CNN
+F 3 "~" H 3000 3900 50  0001 C CNN
+	1    3000 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 2700 1700 2850
+Wire Wire Line
+	2350 2700 2350 2850
+Wire Wire Line
+	3000 2700 3000 2850
+Wire Wire Line
+	1700 3150 2350 3150
+Wire Wire Line
+	2350 3150 3000 3150
+Connection ~ 2350 3150
+Wire Wire Line
+	2100 2700 2100 3600
+Wire Wire Line
+	2750 2700 2750 3600
+Wire Wire Line
+	3400 2700 3400 3600
+Wire Wire Line
+	1700 3600 1700 3750
+Wire Wire Line
+	2350 3600 2350 3750
+Wire Wire Line
+	3000 3600 3000 3750
+Wire Wire Line
+	1700 4050 2350 4050
+Connection ~ 2350 4050
+Wire Wire Line
+	2350 4050 3000 4050
+Text Label 1400 3150 0    50   ~ 0
+Row_0
+Text Label 1450 4050 0    50   ~ 0
+Row_1
+Wire Wire Line
+	1700 4050 1450 4050
+Connection ~ 1700 4050
+Wire Wire Line
+	1700 3150 1400 3150
+Connection ~ 1700 3150
+Text Label 4650 3350 2    50   ~ 0
+Row_0
+Text Label 4650 3450 2    50   ~ 0
+Row_1
+Text Label 2100 2700 1    50   ~ 0
+Col_0
+Text Label 2750 2700 1    50   ~ 0
+Col_1
+Text Label 3400 2700 1    50   ~ 0
+Col_2
+Text Label 4650 3750 2    50   ~ 0
+Col_2
+Text Label 4650 3650 2    50   ~ 0
+Col_1
+Text Label 4650 3550 2    50   ~ 0
+Col_0
+$Comp
+L Device:Rotary_Encoder_Switch SW7
+U 1 1 6057EBC9
+P 6950 3250
+F 0 "SW7" H 6950 3617 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 6950 3526 50  0000 C CNN
+F 2 "Gauntface:ACZ11BRXE" H 6800 3410 50  0001 C CNN
+F 3 "~" H 6950 3510 50  0001 C CNN
+	1    6950 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3150 6650 3150
+Wire Wire Line
+	6050 3250 6650 3250
+Wire Wire Line
+	6050 3350 6650 3350
+Wire Wire Line
+	6050 3450 7250 3450
+$Comp
+L power:GND #PWR0101
+U 1 1 60581374
+P 7250 3150
+F 0 "#PWR0101" H 7250 2900 50  0001 C CNN
+F 1 "GND" H 7255 2977 50  0000 C CNN
+F 2 "" H 7250 3150 50  0001 C CNN
+F 3 "" H 7250 3150 50  0001 C CNN
+	1    7250 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 60581994
+P 3700 3250
+F 0 "J1" H 3808 3531 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 3808 3440 50  0000 C CNN
+F 2 "Gauntface:Screen_38x12mm_JMD0_91_a" H 3700 3250 50  0001 C CNN
+F 3 "~" H 3700 3250 50  0001 C CNN
+	1    3700 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3150 4650 3150
+Wire Wire Line
+	4650 3250 3900 3250
+$Comp
+L power:VCC #PWR02
+U 1 1 605842C8
+P 4250 3350
+F 0 "#PWR02" H 4250 3200 50  0001 C CNN
+F 1 "VCC" H 4265 3523 50  0000 C CNN
+F 2 "" H 4250 3350 50  0001 C CNN
+F 3 "" H 4250 3350 50  0001 C CNN
+	1    4250 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 60584EA4
+P 4050 3450
+F 0 "#PWR01" H 4050 3200 50  0001 C CNN
+F 1 "GND" H 4055 3277 50  0000 C CNN
+F 2 "" H 4050 3450 50  0001 C CNN
+F 3 "" H 4050 3450 50  0001 C CNN
+	1    4050 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3350 4250 3350
+Wire Wire Line
+	3900 3450 4050 3450
+$Comp
+L power:GND #PWR03
+U 1 1 60587943
+P 6300 2850
+F 0 "#PWR03" H 6300 2600 50  0001 C CNN
+F 1 "GND" V 6305 2722 50  0000 R CNN
+F 2 "" H 6300 2850 50  0001 C CNN
+F 3 "" H 6300 2850 50  0001 C CNN
+	1    6300 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 2850 6300 2850
+$Comp
+L Device:R R1
+U 1 1 6059790D
+P 2200 5350
+F 0 "R1" V 1993 5350 50  0000 C CNN
+F 1 "1k" V 2084 5350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2130 5350 50  0001 C CNN
+F 3 "~" H 2200 5350 50  0001 C CNN
+	1    2200 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 6059AB58
+P 2200 5700
+F 0 "R2" V 1993 5700 50  0000 C CNN
+F 1 "1k" V 2084 5700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2130 5700 50  0001 C CNN
+F 3 "~" H 2200 5700 50  0001 C CNN
+	1    2200 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 6059B4D1
+P 2700 5350
+F 0 "D7" H 2693 5095 50  0000 C CNN
+F 1 "LED" H 2693 5186 50  0000 C CNN
+F 2 "Gauntface:LED_D3.0mm" H 2700 5350 50  0001 C CNN
+F 3 "~" H 2700 5350 50  0001 C CNN
+	1    2700 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 6059BFF4
+P 2700 5700
+F 0 "D8" H 2693 5445 50  0000 C CNN
+F 1 "LED" H 2693 5536 50  0000 C CNN
+F 2 "Gauntface:LED_D3.0mm" H 2700 5700 50  0001 C CNN
+F 3 "~" H 2700 5700 50  0001 C CNN
+	1    2700 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 6059C46B
+P 3300 5700
+F 0 "D10" H 3293 5445 50  0000 C CNN
+F 1 "LED" H 3293 5536 50  0000 C CNN
+F 2 "Gauntface:LED_D3.0mm" H 3300 5700 50  0001 C CNN
+F 3 "~" H 3300 5700 50  0001 C CNN
+	1    3300 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 6059C8AD
+P 3300 5350
+F 0 "D9" H 3293 5095 50  0000 C CNN
+F 1 "LED" H 3293 5186 50  0000 C CNN
+F 2 "Gauntface:LED_D3.0mm" H 3300 5350 50  0001 C CNN
+F 3 "~" H 3300 5350 50  0001 C CNN
+	1    3300 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 6059D83E
+P 3850 5350
+F 0 "D11" H 3843 5095 50  0000 C CNN
+F 1 "LED" H 3843 5186 50  0000 C CNN
+F 2 "Gauntface:LED_D3.0mm" H 3850 5350 50  0001 C CNN
+F 3 "~" H 3850 5350 50  0001 C CNN
+	1    3850 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D12
+U 1 1 6059DF24
+P 3850 5700
+F 0 "D12" H 3843 5445 50  0000 C CNN
+F 1 "LED" H 3843 5536 50  0000 C CNN
+F 2 "Gauntface:LED_D3.0mm" H 3850 5700 50  0001 C CNN
+F 3 "~" H 3850 5700 50  0001 C CNN
+	1    3850 5700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2350 5350 2550 5350
+Wire Wire Line
+	2550 5350 2550 5550
+Wire Wire Line
+	2550 5550 3150 5550
+Wire Wire Line
+	3700 5550 3700 5350
+Connection ~ 2550 5350
+Wire Wire Line
+	3150 5350 3150 5550
+Connection ~ 3150 5550
+Wire Wire Line
+	3150 5550 3700 5550
+Wire Wire Line
+	2850 5350 2850 5700
+Wire Wire Line
+	3450 5350 3450 5700
+Wire Wire Line
+	4000 5350 4000 5700
+Wire Wire Line
+	2350 5700 2550 5700
+Wire Wire Line
+	2550 5700 2550 5900
+Wire Wire Line
+	2550 5900 3150 5900
+Wire Wire Line
+	3700 5900 3700 5700
+Connection ~ 2550 5700
+Wire Wire Line
+	3150 5700 3150 5900
+Connection ~ 3150 5900
+Wire Wire Line
+	3150 5900 3700 5900
+Text GLabel 4000 6100 3    50   Input ~ 0
+LED_Col_2
+Text GLabel 3450 6100 3    50   Input ~ 0
+LED_Col_1
+Text GLabel 2850 6100 3    50   Input ~ 0
+LED_Col_0
+Text GLabel 1900 5350 0    50   Input ~ 0
+LED_Row_0
+Text GLabel 1900 5700 0    50   Input ~ 0
+LED_Row_1
+Wire Wire Line
+	4000 5700 4000 6100
+Connection ~ 4000 5700
+Wire Wire Line
+	2850 5700 2850 6100
+Connection ~ 2850 5700
+Wire Wire Line
+	3450 5700 3450 6100
+Connection ~ 3450 5700
+Wire Wire Line
+	2050 5700 1900 5700
+Wire Wire Line
+	1900 5350 2050 5350
+Text GLabel 4650 3850 0    50   Input ~ 0
+LED_Row_0
+Text GLabel 6050 3550 2    50   Input ~ 0
+LED_Row_1
+Text GLabel 6050 3650 2    50   Input ~ 0
+LED_Col_0
+Text GLabel 6050 3750 2    50   Input ~ 0
+LED_Col_1
+Text GLabel 6050 3850 2    50   Input ~ 0
+LED_Col_2
+Wire Wire Line
+	7250 3350 7250 3450
+$EndSCHEMATC
