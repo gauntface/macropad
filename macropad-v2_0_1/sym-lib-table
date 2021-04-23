@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name macropad-v2_0_1-rescue)(type Legacy)(uri ${KIPRJMOD}/macropad-v2_0_1-rescue.lib)(options "")(descr ""))
+)

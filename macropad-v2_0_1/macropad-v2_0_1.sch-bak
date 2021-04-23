@@ -165,12 +165,12 @@ Wire Wire Line
 $Comp
 L Device:Rotary_Encoder_Switch SW7
 U 1 1 6057EBC9
-P 6950 3650
-F 0 "SW7" H 6950 4017 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 6950 3926 50  0000 C CNN
-F 2 "Gauntface:ACZ11BRXE" H 6800 3810 50  0001 C CNN
-F 3 "~" H 6950 3910 50  0001 C CNN
-	1    6950 3650
+P 6000 5200
+F 0 "SW7" H 6000 5567 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 6000 5476 50  0000 C CNN
+F 2 "Gauntface:ACZ11BRXE" H 5850 5360 50  0001 C CNN
+F 3 "~" H 6000 5460 50  0001 C CNN
+	1    6000 5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -274,21 +274,17 @@ Connection ~ 1900 5400
 Wire Wire Line
 	1650 6300 1900 6300
 Connection ~ 1900 6300
-Text GLabel 4650 3750 0    50   Input ~ 0
-Row_0
-Text GLabel 4650 3850 0    50   Input ~ 0
-Row_1
-Text GLabel 4650 3550 0    50   Input ~ 0
+Text GLabel 6050 3550 2    50   Input ~ 0
 Row_Extra
-Text GLabel 4650 3650 0    50   Input ~ 0
+Text GLabel 6050 3750 2    50   Input ~ 0
 Col_0
-Text GLabel 4650 3450 0    50   Input ~ 0
+Text GLabel 6050 3850 2    50   Input ~ 0
 Col_1
-Text GLabel 4650 3350 0    50   Input ~ 0
+Text GLabel 6050 3650 2    50   Input ~ 0
 Col_2
-Text GLabel 7250 3550 2    50   Input ~ 0
+Text GLabel 6300 5100 2    50   Input ~ 0
 Encoder_S1
-Text GLabel 7250 3750 2    50   Input ~ 0
+Text GLabel 6300 5300 2    50   Input ~ 0
 Encoder_S2
 $Comp
 L power:GND #PWR04
@@ -327,7 +323,7 @@ F 3 "" H 6050 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L promicro:ProMicro U1
+L macropad-v2_0_1-rescue:ProMicro-promicro U1
 U 1 1 6077E1C9
 P 5350 3500
 F 0 "U1" H 5350 4537 60  0000 C CNN
@@ -340,20 +336,18 @@ $EndComp
 $Comp
 L power:GND #PWR07
 U 1 1 60785B0E
-P 6650 3650
-F 0 "#PWR07" H 6650 3400 50  0001 C CNN
-F 1 "GND" V 6655 3522 50  0000 R CNN
-F 2 "" H 6650 3650 50  0001 C CNN
-F 3 "" H 6650 3650 50  0001 C CNN
-	1    6650 3650
+P 5700 5200
+F 0 "#PWR07" H 5700 4950 50  0001 C CNN
+F 1 "GND" V 5705 5072 50  0000 R CNN
+F 2 "" H 5700 5200 50  0001 C CNN
+F 3 "" H 5700 5200 50  0001 C CNN
+	1    5700 5200
 	0    1    1    0   
 $EndComp
 NoConn ~ 6050 3450
 NoConn ~ 6050 3350
 NoConn ~ 6050 3250
 NoConn ~ 6050 3150
-NoConn ~ 6050 3750
-NoConn ~ 6050 3850
 Wire Wire Line
 	6050 2950 6500 2950
 $Comp
@@ -379,7 +373,7 @@ F 3 "~" H 2750 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 1825910-6:1825910-6 SW9
+L macropad-v2_0_1-rescue:1825910-6-1825910-6 SW9
 U 1 1 60729392
 P 6900 2950
 F 0 "SW9" H 6900 3315 50  0000 C CNN
@@ -404,7 +398,7 @@ Connection ~ 7300 2950
 Wire Wire Line
 	7300 2950 7300 3050
 $Comp
-L 1825910-6:1825910-6 SW8
+L macropad-v2_0_1-rescue:1825910-6-1825910-6 SW8
 U 1 1 6072FEF7
 P 3600 6750
 F 0 "SW8" V 3554 6978 50  0000 L CNN
@@ -453,16 +447,16 @@ Wire Wire Line
 	3600 3150 4650 3150
 Wire Wire Line
 	3600 3250 4650 3250
-Wire Wire Line
-	6250 3750 6250 3550
-Wire Wire Line
-	6250 3550 6050 3550
-Wire Wire Line
-	6250 3750 6650 3750
-Wire Wire Line
-	6050 3650 6300 3650
-Wire Wire Line
-	6300 3650 6300 3550
-Wire Wire Line
-	6300 3550 6650 3550
+Text GLabel 5700 5100 0    50   Input ~ 0
+Encoder_A
+Text GLabel 5700 5300 0    50   Input ~ 0
+Encoder_B
+Text GLabel 4650 3450 0    50   Input ~ 0
+Encoder_A
+Text GLabel 4650 3550 0    50   Input ~ 0
+Encoder_B
+Text GLabel 4650 3850 0    50   Input ~ 0
+Row_1
+Text GLabel 4650 3750 0    50   Input ~ 0
+Row_0
 $EndSCHEMATC
