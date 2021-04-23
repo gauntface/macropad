@@ -1,3 +1,6 @@
+#ifndef LAYER_H
+#define LAYER_H
+
 #include "Arduino.h"
 #include "splashscreen.h"
 
@@ -31,3 +34,5 @@ class Layer {
       renderText(2, lines);    
     }
 };
+
+#endif

@@ -1,6 +1,7 @@
 #include <SPI.h>
 #include <Wire.h>
 #include "medialayer.cpp"
+#include "zoomlayer.cpp"
 
 String VERSION = "v2.0.0";
 boolean delayInit = false;

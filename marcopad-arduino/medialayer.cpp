@@ -1,6 +1,6 @@
 #include "Arduino.h"
 #include <HID-Project.h>
-#include "layer.cpp"
+#include "layer.h"
 
 // View the media keys here: https://github.com/NicoHood/HID/wiki/Consumer-API
 // View the keyboard keys here: https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardmodifiers/
