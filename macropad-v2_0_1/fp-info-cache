@@ -1,4 +1,4 @@
-19082532864186115
+19289448672482607
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -300,6 +300,13 @@ battery CR-3032 coin cell vertical
 0
 2
 2
+Button_1825910-6
+SW_1825910-6-4
+
+
+0
+4
+4
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -51575,6 +51582,55 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+Gauntface
+ACZ11BRXE
+
+
+0
+7
+6
+Gauntface
+LED_D3.0mm
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+Gauntface
+Screen_38x12mm_JMD0_91_a
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+Gauntface
+gauntface-logo
+
+
+0
+0
+0
+Gauntface
+gauntface-logo-6mm
+
+
+0
+0
+0
+Gauntface
+gauntface-logo-8mm
+
+
+0
+0
+0
+Gauntface
+gauntface-logo-10mm
+
+
+0
+0
+0
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -76761,6 +76817,846 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_1.00u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 1.00u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_1.25u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 1.25u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_1.25u_Rotated
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 1.25u Rotated
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_1.50u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 1.50u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_1.50u_Rotated
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 1.50u Rotated
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_1.75u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 1.75u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_1.75u_Rotated
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 1.75u Rotated
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_2.00u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 2.00u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_2.00u_Rotated
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 2.00u Rotated
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_2.25u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 2.25u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_2.25u_Rotated
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 2.25u Rotated
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_2.50u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 2.50u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_2.50u_Rotated
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 2.50u Rotated
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_2.75u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 2.75u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_2.75u_Rotated
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 2.75u Rotated
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_3.00u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 3.00u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_3.00u_Rotated
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 3.00u Rotated
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_4.00u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 4.00u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_4.50u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 4.50u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_5.50u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 5.50u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_6.00u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 6.00u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_6.00u_Offset
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 6.00u Offset
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_6.25u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 6.25u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_6.50u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 6.50u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_7.00u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB 7.00u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_ISOEnter
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB ISOEnter
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_ISOEnter_Rotated90
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB ISOEnter
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_ISOEnter_Rotated180
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB ISOEnter
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_PCB_ISOEnter_Rotated270
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch PCB ISOEnter
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_1.00u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 1.00u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_1.25u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 1.25u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_1.25u_Rotated
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 1.25u Rotated
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_1.50u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 1.50u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_1.50u_Rotated
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 1.50u Rotated
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_1.75u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 1.75u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_1.75u_Rotated
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 1.75u Rotated
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_2.00u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 2.00u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_2.00u_Rotated
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 2.00u Rotated
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_2.25u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 2.25u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_2.25u_Rotated
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 2.25u Rotated
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_2.50u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 2.50u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_2.50u_Rotated
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 2.50u Rotated
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_2.75u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 2.75u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_2.75u_Rotated
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 2.75u Rotated
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_3.00u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 3.00u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_3.00u_Rotated
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 3.00u Rotated
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_4.00u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 4.00u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_4.50u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 4.50u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_5.50u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 5.50u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_6.00u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 6.00u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_6.00u_Offset
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 6.00u Offset
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_6.25u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 6.25u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_6.50u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 6.50u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_7.00u
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate 7.00u
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_ISOEnter
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate ISOEnter
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_ISOEnter_Rotated90
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate ISOEnter
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_ISOEnter_Rotated180
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate ISOEnter
+0
+2
+2
+Switch_Keyboard_Cherry_MX
+SW_Cherry_MX_Plate_ISOEnter_Rotated270
+Cherry MX keyswitch, https://www.cherrymx.de/en/dev.html
+Cherry MX Keyboard Keyswitch Switch Plate ISOEnter
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_1.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_1.25u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.25u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_1.25u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.25u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_1.50u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_1.50u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.50u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_1.75u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.75u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_1.75u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 1.75u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_2.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_2.00u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.00u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_2.25u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.25u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_2.25u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.25u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_2.50u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_2.50u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.50u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_2.75u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.75u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_2.75u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 2.75u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_3.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 3.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_3.00u_Rotated
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 3.00u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_4.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 4.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_4.50u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 4.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_5.50u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 5.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_6.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 6.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_6.00u_Offset
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 6.00u Offset
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_6.25u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 6.25u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_6.50u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 6.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_7.00u
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket 7.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_ISOEnter
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket ISOEnter
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_ISOEnter_Rotated90
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket ISOEnter
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_ISOEnter_Rotated180
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket ISOEnter
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Hotswap_Kailh_ISOEnter_Rotated270
+Kailh keyswitch Hotswap Socket, 
+Kailh Keyboard Keyswitch Switch Hotswap Socket ISOEnter
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_1.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_1.25u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.25u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_1.25u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.25u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_1.50u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_1.50u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.50u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_1.75u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.75u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_1.75u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 1.75u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_2.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_2.00u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.00u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_2.25u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.25u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_2.25u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.25u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_2.50u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_2.50u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.50u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_2.75u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.75u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_2.75u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 2.75u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_3.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 3.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_3.00u_Rotated
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 3.00u Rotated
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_4.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 4.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_4.50u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 4.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_5.50u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 5.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_6.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 6.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_6.00u_Offset
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 6.00u Offset
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_6.25u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 6.25u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_6.50u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 6.50u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_7.00u
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch 7.00u
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_ISOEnter
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch ISOEnter
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_ISOEnter_Rotated90
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch ISOEnter
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_ISOEnter_Rotated180
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch ISOEnter
+0
+2
+2
+Switch_Keyboard_Kailh
+SW_Kailh_Choc_V1_ISOEnter_Rotated270
+Kailh Choc V1 keyswitch, http://www.kailh.com/en/Products/Ks/CS/
+Kailh Choc V1 Keyswitch Switch ISOEnter
+0
+2
+2
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
