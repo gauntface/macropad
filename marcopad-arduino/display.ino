@@ -3,7 +3,10 @@
 
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 32 // OLED display height, in pixels
-#define OLED_RESET     4 // Reset pin # (or -1 if sharing Arduino reset pin)
+#define OLED_RESET     -1 // Reset pin # (or -1 if sharing Arduino reset pin)
+#define FONT_X 6
+#define FONT_Y 8
+#define PADDING 4
 
 int DISPLAY_ADDR = 0x3C;
 
@@ -33,35 +36,40 @@ static const unsigned char logo_bmp [] PROGMEM = {
 
 void renderText(int linesSize, String lines[]) {
   display.clearDisplay();
-  
-  display.setTextColor(SSD1306_WHITE);
-  display.setTextSize(1);
 
-  int fontX = 6;
-  int fontY = 8;
-  int padding = 4;
-  
   int longestLine = 0;
   for (int i = 0; i < linesSize; i++) {
-    int width = (lines[i].length() * fontX);
+    int width = (lines[i].length() * FONT_X);
     if (width > longestLine) {
       longestLine = width;
     }
   }
 
+  int x = display.width() / 2;
+  if (longestLine > 0) {
+    x = (display.width() - PADDING - longestLine) / 2;
+  }
+  renderTextWithOffset(x + PADDING, linesSize, lines);
+
+  display.display();
+}
+
+void renderTextWithLogo(int linesSize, String lines[]) {
+  display.clearDisplay();
+
+  int longestLine = 0;
+  for (int i = 0; i < linesSize; i++) {
+    int width = (lines[i].length() * FONT_X);
+    if (width > longestLine) {
+      longestLine = width;
+    }
+  }
+  
   int x = (display.width() - LOGO_WIDTH) / 2;
   if (longestLine > 0) {
-    x = (display.width() - LOGO_WIDTH - padding - longestLine) / 2;
+    x = (display.width() - LOGO_WIDTH - PADDING - longestLine) / 2;
   }
-
-  int y = (display.height() - (linesSize * fontY) - ((linesSize - 1) * padding)) / 2;
-  
-  for (int i = 0; i < linesSize; i++) {
-    String l = lines[i];
-    Serial.println(l);
-    display.setCursor(x + LOGO_WIDTH + padding, y + (i * (fontY + padding)));
-    display.println(l);
-  }
+  renderTextWithOffset(x + LOGO_WIDTH + PADDING, linesSize, lines);
 
   display.drawBitmap(
     x,
@@ -69,4 +77,18 @@ void renderText(int linesSize, String lines[]) {
     logo_bmp, LOGO_WIDTH, LOGO_HEIGHT, 1);
     
   display.display();
+}
+
+void renderTextWithOffset(int x, int linesSize, String lines[]) {
+  display.setTextColor(SSD1306_WHITE);
+  display.setTextSize(1);
+
+  int y = (display.height() - (linesSize * FONT_Y) - ((linesSize - 1) * PADDING)) / 2;
+  
+  for (int i = 0; i < linesSize; i++) {
+    String l = lines[i];
+    Serial.println(l);
+    display.setCursor(x, y + (i * (FONT_Y + PADDING)));
+    display.println(l);
+  }
 }

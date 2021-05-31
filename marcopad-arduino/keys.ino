@@ -8,15 +8,15 @@
 
 // *Digital Pins* used to match Sparkfun Pro Micro
 // See https://cdn.sparkfun.com/assets/learn_tutorials/1/1/1/4/QwiicProMicroUSB-C_ATmega32U4_Graphical_Datasheet.png
-byte keyRowPins[] = {8, 9, 6};
-byte keyColPins[] = {7, 5, 4};
+byte keyRowPins[] = {8, 9, 15};
+byte keyColPins[] = {16, 10, 14};
 
 const int keyRowCount = sizeof(keyRowPins);
 const int keyColCount = sizeof(keyColPins);
 
 byte previousState[keyColCount][keyRowCount];
 
-#define PressDelay 300
+#define PressDelay 250
 
 void initKeys(void) {
   // See https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardpress/

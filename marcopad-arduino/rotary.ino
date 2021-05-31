@@ -1,6 +1,6 @@
 // // See https://cdn.sparkfun.com/assets/learn_tutorials/1/1/1/4/QwiicProMicroUSB-C_ATmega32U4_Graphical_Datasheet.png
-#define ROTARY_A 15
-#define ROTARY_B 14
+#define ROTARY_A 6
+#define ROTARY_B 5
 
 boolean prevA;
 

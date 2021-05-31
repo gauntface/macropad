@@ -5,7 +5,7 @@
 // View the media keys here: https://github.com/NicoHood/HID/wiki/Consumer-API
 // View the keyboard keys here: https://www.arduino.cc/reference/en/language/functions/usb/keyboard/keyboardmodifiers/
 
-class MediaLayer : public Layer {
+class LinuxLayer : public Layer {
   public:
     virtual void init() override {
       Consumer.begin();
@@ -13,64 +13,71 @@ class MediaLayer : public Layer {
     }
     
     virtual void onKnobPress() override {
-      Serial.println("MediaLayer: onKnobPress - Play / Pause");
+      Serial.println("LinuxLayer: onKnobPress - Play / Pause");
       Consumer.write(MEDIA_PLAY_PAUSE);
       
       Layer::showMessage("Play / Pause");
     }
     
     virtual void onKey1Press()override {
-      Serial.println("MediaLayer: Key 1 Press - Love song");
-      Keyboard.press(KEY_LEFT_CTRL);
-      Keyboard.press(KEY_LEFT_GUI);
-      Keyboard.press('l');
-      delay(100);
-      Keyboard.releaseAll();
-      
-      Layer::showMessage("Love Song");
-    }
-    virtual void onKey2Press() override {
-      Serial.println("MediaLayer: Key 2 Press - Previous Track");
+      Serial.println("LinuxLayer: Key 1 Press - Previous Track");
       Consumer.write(MEDIA_PREVIOUS);
 
       Layer::showMessage("Prev. Track");
     }
-    virtual void onKey3Press() override {
-      Serial.println("MediaLayer: Key 3 Press - Next Track");
+    
+    virtual void onKey2Press() override {
+      Serial.println("LinuxLayer: Key 2 Press - Next Track");
       Consumer.write(MEDIA_NEXT);
       
       Layer::showMessage("Next Track");
     }
+    virtual void onKey3Press() override {
+      Serial.println("LinuxLayer: Key 3 Press - NOOP");
+      
+      Layer::showMessage("Nothing");
+    }
     
     virtual void onKey4Press() override {
-      Serial.println("MediaLayer: Key 4 Press - Hate song");
-      Keyboard.press(KEY_LEFT_CTRL);
-      Keyboard.press(KEY_LEFT_GUI);
-      Keyboard.press('h');
+      Serial.println("LinuxLayer: Key 4 Press - Toggle Audio Zoom");
+
+      // Alt + A
+      // https://support.zoom.us/hc/en-us/articles/205683899-hot-keys-and-keyboard-for-zoom
+      Keyboard.press(KEY_LEFT_ALT);
+      Keyboard.press('a');
       delay(100);
       Keyboard.releaseAll();
 
-      Layer::showMessage("Hate Song");
+      Layer::showMessage("Toggle Audio Zoom");
     }
+    
     virtual void onKey5Press() override {
-      Serial.println("MediaLayer: Key 5 Press - NOOP");
+      Serial.println("LinuxLayer: Key 5 Press - Toggle Cam Zoom");
 
-      Layer::showMessage("Nothing");
+      // Alt + V
+      // https://support.zoom.us/hc/en-us/articles/205683899-hot-keys-and-keyboard-for-zoom
+      Keyboard.press(KEY_LEFT_ALT);
+      Keyboard.press('v');
+      delay(100);
+      Keyboard.releaseAll();
+
+      Layer::showMessage("Toggle Cam Zoom");
     }
+    
     virtual void onKey6Press()override {
-      Serial.println("MediaLayer: Key 6 Press - NOOP");
+      Serial.println("LinuxLayer: Key 6 Press - NOOP");
 
       Layer::showMessage("Nothing");
     }
     
     virtual void onUp()override {
-      Serial.println("MediaLayer: Up - Volume increase");
+      Serial.println("LinuxLayer: Up - Volume increase");
       Consumer.write(MEDIA_VOL_UP);
 
       Layer::showMessage("Volume Up");
     }
     virtual void onDown()override {
-      Serial.println("MediaLayer: Down - Volume decrease");
+      Serial.println("LinuxLayer: Down - Volume decrease");
       Consumer.write(MEDIA_VOL_DOWN);
 
       Layer::showMessage("Volume Down");
@@ -79,6 +86,6 @@ class MediaLayer : public Layer {
       Layer::showMessage("");  
     }
     virtual String layerName() override {
-      return "Media Layer";
+      return "Linux Layer";
     }
 };

@@ -1,6 +1,10 @@
+#include <EEPROM.h>
+
+#define LAYER_SELECTION_ADDR 0
+
 Layer* layers[] = {
-  new MediaLayer(),
-  new ZoomLayer(),
+  new LinuxLayer(),
+  new MacLayer(),
 };
 const int layerCount = 2;
 int currentLayerIdx = 0;
@@ -10,7 +14,15 @@ void initLayers() {
   for (int i = 0; i < layerCount; i++) {
     // layers[i]->init();
   }
-  Serial.println("Selecting layer 0");
+  currentLayerIdx = EEPROM.read(LAYER_SELECTION_ADDR);
+  if (currentLayerIdx >= layerCount) {
+    currentLayerIdx = 0;
+  }
+  
+  Serial.print("Selecting layer ");
+  Serial.print(currentLayerIdx);
+  Serial.println();
+  
   layers[currentLayerIdx]->onLayerSelected();
 }
 
@@ -19,6 +31,7 @@ void nextLayer() {
   Serial.print("Selecting layer ");
   Serial.print(currentLayerIdx);
   Serial.println();
+  EEPROM.write(LAYER_SELECTION_ADDR, currentLayerIdx);
   layers[currentLayerIdx]->onLayerSelected();
 }
 
