@@ -48,7 +48,14 @@ class LinuxLayer : public Layer {
       delay(100);
       Keyboard.releaseAll();
 
-      Layer::showMessage("Toggle Audio Zoom");
+      // Ctrl + d
+      // https://support.google.com/a/users/answer/9896256?hl=en
+      Keyboard.press(KEY_LEFT_CTRL);
+      Keyboard.press('d');
+      delay(100);
+      Keyboard.releaseAll();
+
+      Layer::showMessage("Toggle Microphone");
     }
     
     virtual void onKey5Press() override {
@@ -61,7 +68,14 @@ class LinuxLayer : public Layer {
       delay(100);
       Keyboard.releaseAll();
 
-      Layer::showMessage("Toggle Cam Zoom");
+      // Ctrl + e
+      // https://support.google.com/a/users/answer/9896256?hl=en
+      Keyboard.press(KEY_LEFT_CTRL);
+      Keyboard.press('e');
+      delay(100);
+      Keyboard.releaseAll();
+
+      Layer::showMessage("Toggle Cam");
     }
     
     virtual void onKey6Press()override {
