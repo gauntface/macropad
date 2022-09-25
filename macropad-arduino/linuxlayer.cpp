@@ -97,7 +97,7 @@ class LinuxLayer : public Layer {
       Layer::showMessage("Volume Down");
     }
     virtual void onLayerSelected() override {
-      Layer::showMessage("");  
+      Layer::showMessage("Change Layer");
     }
     virtual String layerName() override {
       return "Linux Layer";
