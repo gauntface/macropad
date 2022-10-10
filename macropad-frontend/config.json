@@ -1,0 +1,25 @@
+{
+  "disableHugoGeneratorInject": true,
+  "markup": {
+      "goldmark": {
+        "renderer": {
+            "unsafe": true
+        }
+      },
+      "highlight": {
+        "codeFences": false
+      }
+  },
+
+  "baseURL": "https://macropad.gaunt.dev/",
+  "languageCode": "en-us",
+  "title": "Macropad by Matt Gaunt-Seo",
+  "theme": ["macropad", "base-theme"],
+
+  "params": {
+      "description": "The site to configure the Macropad by Matt Gaunt-Seo.",
+      "themecolor": "#def3c5",
+      "socialimage": "/images/default-social.png",
+      "twittercreator": "@gauntface"
+  }
+}

@@ -1,0 +1,3 @@
+[submodule "macropad-frontend/themes/base-theme"]
+	path = macropad-frontend/themes/base-theme
+	url = https://github.com/gauntface/hugo-base-theme.git
